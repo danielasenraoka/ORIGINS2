@@ -1,0 +1,17 @@
+Package: ORIGINS2
+Title: Activity computation of protein-protein interaction networks
+Version: 0.0.0.9000
+Authors@R: 
+    person("Daniela", "Senra", , "danielasenraoka@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-0868-004X"))
+Description: R package that calculates the activity of protein-protein interaction networks associated with biological processes. A function to create custom PPINs is provided, along with some already created PPINs.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    dplyr,
+    magrittr
