@@ -29,7 +29,7 @@ remotes::install_github("danielasenraoka/ORIGINS2")
 1. Load origins
 
 ```
-library(ORIGINS)
+library(ORIGINS2)
 ```
 
 2. Compute activity of a dataset
