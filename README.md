@@ -41,3 +41,8 @@ diff_activity <- activity(expression_matrix, differentiation_edges, FALSE)
 ```
 
 3. Build any PPIN associated with any gene ID list using the function ```build_ppin(genes_bp, ppi_edges_complete = full_human_ppin)```. Where ```genes_bp``` is the gene ID list associated with the biological process of interest and ```ppi_edges_complete``` is the complete PPIN adjacency list, the full Human PPIN adjacency list is included within the package (```full_human_ppin```).
+
+## Publication
+
+If you use this code in your research, please cite our publication: [Senra, D., Guisoni, N. and Diambra, L. (2023). Cell annotation using scrna-seq data: A protein-protein interaction network approach. MethodsX, 102179. doi:10.1016/j.mex.2023.102179](https://www.sciencedirect.com/science/article/pii/S2215016123001796). 
+Proper citation is essential for acknowledging the efforts and contributions of the original authors. Thank you!
